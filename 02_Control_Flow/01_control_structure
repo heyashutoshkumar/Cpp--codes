@@ -1,0 +1,51 @@
+/*CONTROL STRUCTURE
+
+Control Structures determine the flow of execution of a program. They decide which statements run, when they run, and how many times they run.
+
+Types of Control Structure:
+
+1. SEQUENTIAL CONTROL STRUCTURE 
+2. SELECTION CONTROL STRUCTURE
+3. LOOPING CONTROL STRUCTURE
+
+
+SEQUENTIAL FLOW STATEMENT:
+
+—>Execute one after another statement 
+
+
+SELECTION CONTROL STRUCTURE
+
+—>Decision making control structure .
+
+—> Check the condition and on the basis of the given condition further statement are executed.
+
+—> Selection control structure:
+
+1. If statement 
+2. if-else statement 
+3. if - else ladder 
+4. switch statement 
+
+
+
+LOOPING CONTROL STRUCTURE:
+
+—>Used to repeat the given statement on the basis of the given condition.
+
+—>Looping statements are :
+
+1. FOR LOOP
+2. WHILE LOOP
+3. DO WHILE LOOP
+
+
+JUMP CONTROL STRUCTURE:
+
+—>Used to transfer the control from one part of the program to the another part of the program .
+
+—>JUMP statements are:
+
+1. Continue statements 
+2. Break statements 
+3. Return */
