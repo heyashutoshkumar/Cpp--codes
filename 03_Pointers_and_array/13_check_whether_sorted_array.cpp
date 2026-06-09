@@ -14,6 +14,8 @@ int main(){
         cin>>ar[i];
     }
     for(int i=0;i<size;i++){
+        if(i==size-1)
+            break;
         if(ar[i]>ar[i+1]){
             sort=0;
             break;}
@@ -29,4 +31,4 @@ int main(){
         cout<<"Not sorted array!!"<<endl;
     }
     return 0;
-}
+} 
