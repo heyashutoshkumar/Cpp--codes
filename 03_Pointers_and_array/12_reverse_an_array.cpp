@@ -2,8 +2,11 @@
 #include<iostream>
 using namespace std;
 void reverseArray(int ar[],int size){
-    for(int i=0;i<size;i++){
-        ar[i]=ar[size-i-1];
+    int start=0,end=size-1;
+    while(start<end){
+        swap(ar[start],ar[end]);
+        start++;
+        end--;
 
     }
 }
@@ -26,7 +29,7 @@ int main(){
 
     }
     reverseArray(ar, size);
-    cout<<"\n Array after reverseing:"<<endl;
+    cout<<"\nArray after reverseing:"<<endl;
     for(int i=0;i<size;i++){
         cout<<ar[i]<<' ';
     }
